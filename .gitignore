@@ -1,0 +1,9 @@
+settings.json
+logpass.txt
+MaFiles/
+
+build/
+dist/
+
+*.pyc
+__pycache__/
