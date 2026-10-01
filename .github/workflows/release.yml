@@ -35,9 +35,10 @@ jobs:
             exit 0
           fi
 
-          gh release create "$TAG" MySoftware.exe `
-            --repo "$GITHUB_REPOSITORY" `
-            --target "$GITHUB_SHA" `
-            --title "$TAG" `
-            --notes "Automatic release $TAG" `
+          gh release create "$TAG" MySoftware.exe \
+            --repo "$GITHUB_REPOSITORY" \
+            --target "$GITHUB_SHA" \
+            --title "$TAG" \
+            --notes "Automatic release $TAG" \
             --latest
+
